@@ -1,0 +1,27 @@
+This is README file for Algorithm PA#2
+Author:梁程捷 B11901136
+
+mps --method=[bu|td] <input_file_name> <output_file_name>
+
+This program provides two method for solving the Maximum Planar Subset problem (MPS): bottom-up and top-down dynamic programming (DP)
+
+DIRECTORIES:
+
+bin/	  executable binary
+doc/	  reports
+src/ 	  source C/C++ codes
+
+HOW TO COMPILE:
+	Under the root directory of this PA, simply type
+	make
+
+HOW TO RUN:
+    Under the root directory of this PA, type
+    ./bin/mps <input_file_name> <output_file_name>
+    With optional flag:
+    ./bin/mps --method=[bu|td] <input_file_name> <output_file_name>
+    The default method used is bottom-up.
+
+    Example:
+    ./bin/mps --method=td inputs/12.in outputs/12.in
+
